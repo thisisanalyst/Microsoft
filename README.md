@@ -1,9 +1,9 @@
 # Microsoft
 
-This repository contains some-what copy of Microsoft's Official Website!
+This repository contains some-what copy of Microsoft's Official Website.
 
 Designed on HTML & CSS.
 
 You can click the link to see it in your browser:
 
-https://thisisanalyst.github.io/Microsoft/index.html
+https://thisisanalyst.github.io/Microsoft/
