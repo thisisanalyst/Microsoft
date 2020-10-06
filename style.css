@@ -62,22 +62,18 @@ a{
 }
 
 #covid19{
-    position: absolute;
     width: 100%;
     height: 40px;
     /* background-color: rgb(68, 218, 238); */
 }
 
 #corona{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1213px;
+    width: 1214px;
     height: 100%;
+    margin-left: 5.6%;
     background-color: #0067B8;
 }
 
@@ -87,4 +83,222 @@ a{
     text-decoration: none;
     font-size: 13px;
     color: white;
+}
+
+#banner-1{
+    width: 100%;
+    height: 70%;
+    /* background-color: aquamarine; */
+}
+
+#cover{
+    width: 1214px;
+    height: 100%;
+    margin-left: 5.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: cornsilk; */
+}
+
+#cover #content{
+    padding-top: 14%;
+    padding-left: 5%;
+    width: 30%;
+    height: 100%;
+    background-color: #E6E6E6;
+}
+
+#content h1{
+    font-size: 24px;
+}
+
+#content p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#content button{
+    margin-top: 10px;
+    width: 40%;
+    height: 12%;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#cover #cover-photo{
+    width: 70%;
+    height: 100%;
+    background-image: url(./Banner-3.jpeg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: darkkhaki; */
+}
+
+#banner-2{
+    width: 100%;
+    height: 28%;
+    /* background-color: darkorchid; */
+}
+
+#content-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1214px;
+    height: 100%;
+    margin-left: 5.6%;
+    /* background-color: darksalmon; */
+}
+
+#i1{
+    width: 10%;
+    height: 80%;
+    margin-left: 220px;
+    /* background-color: darkslategray; */
+}
+
+#i2{
+    width: 10%;
+    height: 80%;
+    /* background-color: darkslategray; */
+}
+
+#i3{
+    width: 10%;
+    height: 80%;
+    /* background-color: darkslategray; */
+}
+
+#i4{
+    width:10%;
+    height: 80%;
+    margin-right: 220px;
+    /* background-color: darkslategray; */
+}
+
+.same{
+    width: 35%;
+    height: 30%;
+    margin-top: 15%;
+    margin-left: 33%;
+    /* background-color: deepskyblue; */
+}
+
+.same1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#banner-3{
+    width: 100%;
+    height: 60%;
+    /* background-color: firebrick; */
+}
+
+#inner-Banner{
+    width: 1214px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5.6%;
+}
+.info{
+    width: 283px;
+    height: 350px;
+    /* background-color: fuchsia; */
+}
+
+.image{
+    width: 100%;
+    height: 162px;
+    /* background-color: gold; */
+}
+
+.heading{
+    width: 100%;
+    height: 50%;
+    margin-top: 5px;
+    padding-top: 12px;
+    padding-left: 4px;
+    /* background-color: grey; */
+}
+
+.heading h3{
+    font-size: 20px;
+}
+
+.heading p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.heading a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 93, 166);
+}
+
+#banner4{
+    width: 100%;
+    height: 70%;
+    /* background-color: hotpink; */
+}
+
+#banner4 #content2{
+    width: 1214px;
+    height: 100%;
+    margin-left: 5.6%;
+    padding-top: 20px;
+    background-image: url(./Banner-4.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: indianred; */
+}
+
+#content2 button{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 530px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+#content2 h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#content2 p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;  
+}
+
+.area{
+    text-align: center;
+}
+
+#footer{
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    background-color: #D4D4EE;
+}
+
+#footer h1{
+    text-align: center;
+    font-weight: 600;
 }
